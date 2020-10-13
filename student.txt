@@ -1,0 +1,4 @@
+Student naam: Bas Hulskamp
+Studentnummer: 662781
+Klas: HAINFVT1A
+GitHub repository: https://github.com/662781/Webmarkup_20_21/tree/main/Website_SolarEnergy
