@@ -8,100 +8,83 @@
 @media screen and (min-width: 930px)
 {
 
-body		  	
-	{		 
-			background-color: white;
+body {		 
+	background-color: white;
 	}
 
-nav
-	{
-		margin-top: 5px;
-		margin-left: 35px;
+#NavBar {
+	margin-top: 5px;
+	margin-left: 35px;
 	}
 	
-#pageHeader
-	{
-		margin-left: 20px;
+#pageHeader {
+	margin-left: 20px;
+	margin-top: 5px;
 	}
 	
-p img
-	{
-			float: right;
-			height: 204px;
-			width: 266px;			
-			position: static;
-			clear: both;
-			/*border: 2px solid pink;*/
-			
-			
-			
-	}
-	
-#article2Pic
-	{
-		height: 236;
-		width: 300;
-		margin-top: -20px;
-		margin-right: -22px;
-	}
+video {
+	width:auto;
+	height:auto;
+}
 
-video
-	{
-			width:480px;
-			height:320px;
-			margin-left: 20px;
-			
-	}
-article   
-	{
-		height: 400px;
-		background-color: #006600;	
-		border: 5px solid #003399;
-	}
-
-section
-	{
-		border: 5px solid red ;
-		margin-top: 40px;
-		margin-left: 20px;
-		width: 67%;
-		
-	}
+#headerImg {
+	width: auto;
 	
-p 
-	{
-		margin-top: 0px;		
-		background-color: rgba(255,255,255,0.5);
-		
-		
-	}
-.articleFooter
-	{
-		margin-top: 340px;
-		margin-left: 45%;
-		background-color: rgba(0,51,153,0.5);
-		text-align: center;
-		width: 10%;
-		font-size: 15px;
-		font-style: italic;
-	}
-.articleFooter a
-	{
-		color: #e6de00;
-	}
-	
+}
 
-#copyFooter
-	{
-		
-		
-		background-color: black;
-		clear: both;
-		text-align: center;
-		color: white;
-	}
+.flexSection {
+	display: flex;
+	margin: 20px;
+	flex-flow: row wrap;
+}
+
+.videoSection {
+	border: 5px solid blue;
+	order: 1;
+	
+}
+
+
+.articleSection {
+	
+	border: 5px solid yellow;
+	order: 2;
+	width: 67%;
+	
+	
+}
+
+
+.articleSection article {
+	border: 5px outset black;
+	height: 400px;
+}
+
+.articleSection header, p {
+	width: 50%;
+	border: 5px solid green;
+	
+}
 
 	
+.indexImage img {
+	height: 300px;
+	width: 470px;
+}
 	
+.indexImage {
+	float: right;
+	margin-right: 10px;
+	margin-top: -50px;
+	max-width: 120%;
+    height: auto;
 	
-	
+}	
+
+.copyrightFooter {
+	padding-bottom: 0px;
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+}
