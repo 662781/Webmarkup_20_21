@@ -3,8 +3,8 @@
 	
 <head>	
 	<meta charset = "utf-8">
-	<meta name = "keywords" content = "solar, energy, sun, future">
-	<meta name = "author" content = "662781">
+	<meta name = "keywords" content = "solar, energy, sun, future, sustainable">
+	<meta name = "author" content = "Bas Hulskamp">
 	<meta name = "description" content = "This is the index page of this website">
 	<link rel = "stylesheet" href = "Website_SolarEnergy/CSS/stylesheet.css">
 	<title>Home of solar energy</title>
@@ -12,81 +12,109 @@
 	
 <body>
 	<header id = "pageHeader"> 
-			
+		<img src = "Website_SolarEnergy/IMG/logo.gif" id = "headerImg">
 		<H1>InHolland Solar Energy</H1> 
 		<H2>The greatest power source</H2>
 			
 	</header>
 			
-	<nav>
+	<nav id = "NavBar">
 		<ul>
-			<li><a href = "/index.html">Home</a></li>
+			<li><a href = "index.html">Home</a></li>
 			<li><a href = "Website_SolarEnergy/Pages/howsolarworks.html">How Solar Works</a></li>
 			<li><a href = "Website_SolarEnergy/Pages/eusolar.html">EU Solar</a></li>
 		    <li><a href = "Website_SolarEnergy/Pages/contact.html">Contact</a></li>
 		</ul>
 	</nav>
-				
-	<video autoplay>
-			<source src="Website_SolarEnergy/Video/video.mp4" type="video/mp4">
-			<source src="Website_SolarEnergy/Video/video.ogg" type="video/ogg">
-			Your browser does not support the video tag.
-	</video>
-				
-	<section>
-				
-		<article id = "article1">
-			<header>
-				<H3>Article 1</H3>
-			</header>
-			<p>
-				Hier komt tekst				
-				
-				<a href ="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">
-					<img src="Website_SolarEnergy/IMG/Victron-Energy-SmartSolar-MPPT-100-50-_laadregelaar-solar-charger.png" alt = "This image could not be loaded">					
-				</a>				
-			</p>								
-			<footer class = "articleFooter">
-				<a href = "https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">Buy --></a>
-			</footer>																		
-		</article>
-				
-		<article id = "article2">
-			<header>
-				<H3>Article 2</H3>
-			</header>
-			<p>
-				Hier komt tekst
-				
-				<a href = "http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">					
-					<img src="Website_SolarEnergy/IMG/Victron-energy-SmartSolar-MPPT_150-35_top.png" alt = "This image could not be loaded" id = "article2Pic">																																		
-				</a>
-			</p>						
-			<footer class = "articleFooter">
-				<a href = "http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">Buy --></a>
-			</footer>																		
-		</article>
-				
-		<article id = "article3">
-			<header>
-				<H3>Article 3</H3>
-			</header>
-			<p>
-				Hier komt tekst			
-				<a href = "https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22">					
-					<img src="Website_SolarEnergy/IMG/SMA-portal.jpg" alt = "This image could not be loaded">																																
-				</a>
-							
-			</p>						
-			<footer class = "articleFooter">
-				<a href = "https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22">Buy --></a>
-			</footer>																		
-		</article>
-				
-	</section>
 	
-
-	<footer id = "copyFooter">&copy; Bas Hulskamp</footer>
+	<section class = "flexSection">
+	
+		<section class = "videoSection">	
+			<video autoplay muted loop>
+					<source src="Website_SolarEnergy/Video/video.mp4" type="video/mp4">
+					<source src="Website_SolarEnergy/Video/video.ogg" type="video/ogg">
+					Your browser does not support the video tag.
+			</video>
+		</section>
+		
+		<section class = "articleSection">
+		
+			<article id = "article1">
+			
+				<header>
+					<H3>Article 1</H3>
+				</header>
+				
+				<p>
+					Hier komt tekst				
+				</p>
+				
+				<section class = "indexImage">
+					<a href ="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">
+						<figure>
+							<img src="Website_SolarEnergy/IMG/Victron-Energy-SmartSolar-MPPT-100-50-_laadregelaar-solar-charger.png" alt = "This image could not be loaded" title = "MPPT 100 | 50">
+							<figcaption>
+								<a href = "https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">Buy --></a>
+							</figcaption>
+						</figure>				
+					</a>	
+				</section>						
+			</article>
+			
+			<article id = "article2">
+			
+				<header>
+					<H3>Article 2</H3>
+				</header>
+				
+				<p>
+					Hier komt tekst				
+				</p>
+				
+				<section class = "indexImage" >
+					<a href ="http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">
+						<figure>
+							<img src="Website_SolarEnergy/IMG/Victron-energy-SmartSolar-MPPT_150-35_top.png" alt = "This image could not be loaded" title = "MPPT 150 | 35">
+							<figcaption>
+								<a href = "http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">Buy --></a>
+							</figcaption>
+						</figure>				
+					</a>	
+				</section>						
+			</article>
+			
+			<article id = "article3">
+			
+				<header>
+					<H3>Article 3</H3>
+				</header>
+				
+				<p>
+					Hier komt tekst				
+				</p>
+				
+				<section class = "indexImage">
+					<a href ="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22">
+						<figure>
+							<img src="Website_SolarEnergy/IMG/SMA-portal.jpg" alt = "This image could not be loaded" title = "SMA-Portal">
+							<figcaption>
+								<a href = "https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22">Buy --></a>
+							</figcaption>
+						</figure>				
+					</a>	
+				</section>						
+			</article>
+			
+		<section class = "copyrightFooter">
+			<footer> &copy 2020 Bas Hulskamp </footer>
+		</section>
+			
+		</section>
+		
+		
+	
+	</section>			
+	
 			
 </body>
 
