@@ -14,9 +14,10 @@
 	.gridSection {
 				/* background-color: red; */
 				display: grid;
-				grid-template-columns: auto auto auto;
-				grid-template-rows: auto auto auto auto auto auto auto auto auto;
+				grid-template-columns: 33% 33% 33%;
+				grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50% ;
 				grid-gap: 10px;
+				margin: 20px;
 				/* width: 100%; */
 
 		}
@@ -56,7 +57,7 @@
 	#article3 {
 		background-color: blue;
 		grid-column-start: 3;
-		grid-row: 1 / span 4;
+		grid-row: 1 / span 3;
 	}
 
 	#article4 {
@@ -67,25 +68,33 @@
 
 	#article5 {
 		background-color: magenta;
+		grid-column-start: 1;
+		grid-row: 3 / span 5;
 	}
 
 	#article6 {
 		background-color: yellow;
+		grid-column-start: 2;
+		grid-column: 2 / span 2;
 	}
 
 	#asideProduct1 {
 		background-color: cyan;
+		grid-row: 8 / span 2;
 	}
 
 	#asideProduct2 {
 		background-color: brown;
+		grid-row: 8 / span 2;
 	}
 
 	#asideProduct3 {
 		background-color: gray;
+		grid-row: 8 / span 2;
 	}
 
 	.copyrightFooter {
+		grid-column: 1 / span 3;
 		font-weight: bold;
 		background-color: black;
 		color: white;
@@ -126,9 +135,14 @@
 	.gridSection {
 				/* background-color: red; */
 				display: grid;
+				grid-template-columns: 50% 50% ;
+				grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50% 50% 50%;
+				grid-gap: 10px;
+				margin: 20px;
 				/* width: 100%; */
 
 		}
+
 
 	#NavBar {
 		margin-top: 5px;
@@ -150,7 +164,62 @@
 
 	}
 
+	#article1 {
+		background-color: red;
+		grid-column-start: 1;
+		grid-row: 1 / span 2;
+	}
+
+	#article2 {
+		background-color: green;
+		grid-column-start: 2 ;
+    grid-row: 1 / span 3;
+	}
+
+	#article3 {
+		background-color: blue;
+		grid-column-start: 1 ;
+		grid-row: 3 / span 4 ;
+	}
+
+	#article4 {
+		/* background-color: pink;
+		grid-column-start: ;
+		grid-row:  / span ; */
+		display: none;
+	}
+
+	#article5 {
+		background-color: magenta;
+		grid-column-start: 2 ;
+		grid-row: 4 / span 3 ;
+	}
+
+	#article6 {
+		background-color: yellow;
+		grid-column-start: 1 ;
+		grid-column: 1 / span 2 ;
+		grid-row: 7 / span 2;
+	}
+
+	#asideProduct1 {
+		background-color: cyan;
+		grid-row: 9 / span 2 ;
+	}
+
+	#asideProduct2 {
+		background-color: brown;
+		grid-row: 9 / span 2;
+	}
+
+	#asideProduct3 {
+		/* background-color: gray;
+		grid-row:  / span ; */
+		display: none;
+	}
+
 	.copyrightFooter {
+		grid-column: 1 / span 2 ;
 		font-weight: bold;
 		background-color: black;
 		color: white;
@@ -189,6 +258,17 @@
 		background-color: #FFF;
 		}
 
+		.gridSection {
+					/* background-color: red; */
+					display: grid;
+					grid-template-columns: 100%;
+					grid-template-rows: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+					grid-gap: 10px;
+					margin: 20px;
+					/* width: 100%; */
+
+			}
+
 
 			#NavBar {
 				display: none;
@@ -199,8 +279,8 @@
 
 		  display: block;
 		  position: relative;
-		  top: 35px;
-		  left: 50px;
+		  top: 15px;
+		  left: 20px;
 
 		  z-index: 1;
 
@@ -330,47 +410,67 @@
 
 			#article1 {
 				background-color: red;
+				grid-column-start: 1;
+				grid-row: 10 / span 3;
 			}
 
 			#article2 {
 				background-color: green;
+				grid-column-start: 1 ;
+		    grid-row: 7 / span 3;
 			}
 
 			#article3 {
 				background-color: blue;
+				grid-column-start: 1 ;
+				grid-row: 4 / span 3 ;
 			}
 
 			#article4 {
-				background-color: pink;
+				/* background-color: pink;
+				grid-column-start: ;
+				grid-row:  / span ; */
+				display: none;
 			}
 
 			#article5 {
 				background-color: magenta;
+				grid-column-start: 1 ;
+				grid-row: 1 / span 3 ;
 			}
 
 			#article6 {
-				background-color: yellow;
+				/* background-color: yellow;
+				grid-column-start: 1 ;
+				grid-column: 1 / span 2 ;
+				grid-row: 7 / span 2; */
+				display: none;
 			}
 
 			#asideProduct1 {
 				background-color: cyan;
+				grid-row: 13 / span 4 ;
 			}
 
 			#asideProduct2 {
-				background-color: brown;
+				/* background-color: brown;
+				grid-row: 9 / span 2; */
+				display: none;
 			}
 
 			#asideProduct3 {
-				background-color: black;
+				/* background-color: gray;
+				grid-row:  / span ; */
+				display: none;
 			}
 
-
 			.copyrightFooter {
-						font-weight: bold;
-						background-color: black;
-						color: white;
-						text-align: center;
-					}
+				grid-column: 1 / span 2 ;
+				font-weight: bold;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
 
 
 			.cookieSection {
