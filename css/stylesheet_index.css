@@ -15,6 +15,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			width: 100%;
+			margin-top: 20px;
 
 		}
 
@@ -92,7 +93,7 @@
 
 	.articleSection article h3 {
 		font-size: 25px;
-		color: #D4872F;
+		color: #C3761D;
 
 	}
 
@@ -116,7 +117,7 @@
 	}
 
 	.indexImage a:hover {
-		color: #D4872F;
+		color: #C3761D;
 	}
 
 	.indexImage a {
@@ -136,7 +137,7 @@
 	}
 
 	.asideSection h3 {
-		color: #D4872F;
+		color: #C3761D;
 		padding: 5px;
 		text-align: center;
 		font-size: 25px;
@@ -191,6 +192,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			width: 100%;
+			margin-top: 20px;
 
 		}
 
@@ -385,6 +387,7 @@
 					display: flex;
 					flex-wrap: wrap;
 					width: 100%;
+					margin-top: 20px;
 
 				}
 
