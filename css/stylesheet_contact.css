@@ -88,6 +88,10 @@
 		border-style: none;
 	}
 
+	.contactForm > form {
+		padding-left: 25%;
+	}
+
 	.productsAside {
 		background-color: #090;
 		grid-column-start: 3;
@@ -132,77 +136,131 @@
 
 @media screen and (max-width: 929px) and (min-width: 720px) {
 
-  body {
-    background-color: #FFF;
-  }
+	body {
+		background-color: #FFF;
+	}
 
-  /* .gridSection {
+  .gridSection {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 180px 180px 180px 180px 180px 180px 180px 180px 20px ;
+    grid-template-rows: 60px 180px 180px 180px 20px ;
     grid-gap: 10px;
-    margin: 20px; */
-
-
-  /* } */
-
-  #NavBar {
-    margin-top: 5px;
-    margin-left: 35px;
-    }
-
-    .MobileNavBar {
-      display: none;
-    }
-
-
-  #pageHeader {
-    margin-left: 20px;
-    margin-top: 5px;
-    }
-
-  #headerImg {
-    width: auto;
-
+    margin: 20px;
   }
 
-  .copyrightFooter {
-    grid-row-start: 9;
-    grid-column: 1 / span 2;
-    grid-row: 9 / span 1;
-    font-weight: bold;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+	#NavBar {
+		margin-top: 5px;
+		margin-left: 35px;
+		}
+
+		.MobileNavBar {
+			display: none;
+		}
 
 
-  .cookieSection {
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 170, 0, 0.6);
-    position: fixed;
+	#pageHeader {
+		margin-left: 20px;
+		margin-top: 5px;
+		}
+
+	#headerImg {
+		width: auto;
+	}
+
+	.asideImageImg {
+		width: 235px;
+		height: 150px;
+	}
+
+	.asideImage {
+		margin-bottom: 50px;
+		margin-top: 45px;
+		/* float: left; */
+		padding-left: 10%;
+		padding-right: 5%;
+		clear: both;
+	}
+
+	.contactInfo {
+		background-color: #090;
+		grid-column: 1 / span 2;
+		text-align: center;
+	}
+
+	.contactInfo > h3 {
+		font-size: 22px;
+		color: #C3761D;
+	}
+
+	.contactForm {
+		background-color: #090;
+		grid-row: 2 / span 6;
+		padding: 5px;
+	}
+
+
+	.contactForm > form > fieldset > label {
+		font-size: 15px;
+	}
+
+	.contactForm > form > fieldset > label,input,textarea {
+		float: left;
+		clear: both;
+		padding: 5px;
+	}
+
+	.contactForm > form > fieldset > legend {
+		font-size: 20px;
+	}
+
+	.contactForm > form > fieldset {
+		border-style: none;
+	}
+
+	.contactForm > form {
+		padding-left: 25%;
+	}
+
+	.productsAside {
+		background-color: #090;
+		grid-column-start: 2;
+		grid-row: 2 / span 6;
+	}
+
+	.copyrightFooter {
+		grid-column: 1 / span 2;
+		font-weight: bold;
+		background-color: black;
+		color: white;
+		text-align: center;
+	}
+
+
+	.cookieSection {
+		right: 0;
+		bottom: 0;
+		background-color: rgba(255, 170, 0, 0.6);
+		position: fixed;
     padding: 5px;
 
-  }
+	}
 
-  .cookieSection  p {
-    margin-top: 30px;
-    margin-left: 15px;
-    padding-left: 5px;
-    color: /*#FFCB47*/ #000;
-    border-style: none none none solid;
+	.cookieSection  p {
+		margin-top: 30px;
+		margin-left: 15px;
+		padding-left: 5px;
+		color: /*#FFCB47*/ #000;
+		border-style: none none none solid;
     font-size: 16px;
-  }
+	}
 
-  .cookieSection  a {
-    color: #000;
-  }
+	.cookieSection  a {
+		color: #000;
+	}
 
-  .cookieSection  a:hover {
-    color: #FFF;
-  }
-
+	.cookieSection  a:hover {
+		color: #FFF;
+	}
 }
 
 @media screen and (max-width: 719px) {
@@ -211,13 +269,13 @@
         background-color: #FFF;
       }
 
-      /* .gridSection {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 180px 180px 180px 180px 180px 180px 120px 120px 120px 120px 120px 120px 20px ;
-        grid-gap: 10px;
-        margin: 20px;
-      } */
+			.gridSection {
+		    display: grid;
+		    grid-template-columns: 50% 50%;
+		    grid-template-rows: 60px 90px 90px 90px 90px 90px 90px 180px 180px 180px 180px 20px ;
+		    grid-gap: 10px;
+		    margin: 20px;
+		  }
 
 
 			#NavBar {
@@ -356,6 +414,65 @@
 
 			#headerImg {
 					width: auto;
+			}
+
+			.asideImageImg {
+				width: 235px;
+				height: 150px;
+			}
+
+			.asideImage {
+				margin-bottom: 50px;
+				margin-top: 45px;
+				/* float: left; */
+				padding-left: 10%;
+				padding-right: 5%;
+				clear: both;
+			}
+
+			.contactInfo {
+				background-color: #090;
+				grid-column: 1 / span 2;
+				text-align: center;
+			}
+
+			.contactInfo > h3 {
+				font-size: 22px;
+				color: #C3761D;
+			}
+
+			.contactForm {
+				background-color: #090;
+				grid-area: 2 / 1 / span 6 / span 2;
+				padding: 5px;
+			}
+
+
+			.contactForm > form > fieldset > label {
+				font-size: 15px;
+			}
+
+			.contactForm > form > fieldset > label,input,textarea {
+				float: left;
+				clear: both;
+				padding: 5px;
+			}
+
+			.contactForm > form > fieldset > legend {
+				font-size: 20px;
+			}
+
+			.contactForm > form > fieldset {
+				border-style: none;
+			}
+
+			.contactForm > form {
+				padding-left: 35%;
+			}
+
+			.productsAside {
+				background-color: #090;
+				grid-area: 8 / 1 / span 4 / span 2;
 			}
 
 			.copyrightFooter {
