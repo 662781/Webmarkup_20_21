@@ -115,9 +115,10 @@
     background:#ffd;
     position:absolute;
     display:block;
-    border:1px solid
-    black;
-    padding:0.5em;  }
+    border:1px solid ;
+		border-color: black;
+    padding:0.5em;
+	}
 
   a.comment-indicator {
     background:red;
@@ -612,7 +613,8 @@
 						margin-left: 15px;
 						padding-left: 5px;
 						color: /*#FFCB47*/ #000;
-						border-style: none none none solid;
+						border-style: none none none double;
+						border-width: 5px;
             font-size: 16px;
 					}
 

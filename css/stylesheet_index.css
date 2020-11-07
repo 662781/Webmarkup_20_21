@@ -10,6 +10,7 @@
 	body {
 		background-color: #FFF;
 	}
+
 .flexSection {
 			/* background-color: red; */
 			display: flex;
@@ -19,14 +20,20 @@
 
 		}
 
-	#NavBar {
-		margin-top: 5px;
-		margin-left: 35px;
+		#NavBar {
+			margin-top: 5px;
+			margin-left: 35px;
 		}
 
 		.MobileNavBar {
 			display: none;
 		}
+
+		#NavBar > a:active {
+			background-color: #E5983F;
+		}
+
+
 
 
 	#pageHeader {
@@ -80,6 +87,9 @@
 
 	.articleSection article {
 		padding: 10px;
+		line-height: normal;
+		text-indent: 0px;
+		word-spacing: normal;
 		/* background-color: #0FF; */
 
 	}
@@ -94,6 +104,7 @@
 	.articleSection article h3 {
 		font-size: 25px;
 		color: #E5983F;
+		letter-spacing: 1px;
 
 	}
 
@@ -161,6 +172,7 @@
 		bottom: 0;
 		background-color: rgba(255, 170, 0, 0.6);
 		position: fixed;
+		z-index: 9999;
 
 	}
 
