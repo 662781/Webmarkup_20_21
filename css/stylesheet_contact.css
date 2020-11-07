@@ -60,7 +60,8 @@
 
 	.contactInfo > h3 {
 		font-size: 22px;
-		color: #C3761D;
+		color: #E5983F;
+		/* #C3761D */
 	}
 
 	.contactForm {
@@ -96,6 +97,14 @@
 		background-color: #090;
 		grid-column-start: 3;
 		grid-row: 2 / span 6;
+	}
+
+	.asideImage a:hover {
+		color: #E5983F;
+	}
+
+	.asideImage a {
+		color: #FFCB47;
 	}
 
 	.copyrightFooter {
@@ -189,7 +198,7 @@
 
 	.contactInfo > h3 {
 		font-size: 22px;
-		color: #C3761D;
+		color: #E5983F;
 	}
 
 	.contactForm {
@@ -225,6 +234,14 @@
 		background-color: #090;
 		grid-column-start: 2;
 		grid-row: 2 / span 6;
+	}
+
+	.asideImage a:hover {
+		color: #E5983F;
+	}
+
+	.asideImage a {
+		color: #FFCB47;
 	}
 
 	.copyrightFooter {
@@ -438,7 +455,7 @@
 
 			.contactInfo > h3 {
 				font-size: 22px;
-				color: #C3761D;
+				color: #E5983F;
 			}
 
 			.contactForm {
@@ -473,6 +490,14 @@
 			.productsAside {
 				background-color: #090;
 				grid-area: 8 / 1 / span 4 / span 2;
+			}
+
+			.asideImage a:hover {
+				color: #E5983F;
+			}
+
+			.asideImage a {
+				color: #FFCB47;
 			}
 
 			.copyrightFooter {
