@@ -14,7 +14,7 @@
   .gridSection {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 80px 180px 180px 180px 180px 25% ;
+    grid-template-rows: 90px 180px 180px 180px 180px 25% ;
     grid-gap: 10px;
     margin: 20px;
 
@@ -41,10 +41,6 @@
 
 	}
 
-  .table > body,div,table,thead,tbody,tfoot,tr,th,td,p {
-    font-family:"Arial"; font-size:x-small
-  }
-
   .article1 {
     background-color: #090;
 		grid-column-start: 1;
@@ -68,13 +64,47 @@
 		grid-column: 1 / span 2;
     grid-row: 2 / span 5;
     padding: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+    float: left;
+	}
 
+		table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC;
+		font-family: Arial, Helvetica, sans-serif;
+	}
 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
 
+	.tableizer-table th {
+		background-color: #104E8B;
+		color: #FFF;
+		font-weight: bold;
+	}
 
-  }
+	.tableHeader {
+		background-color: #000;
+		color: #FFF;
+
+	}
+
+	.tableFooter {
+		background-color: #104E8B;
+		color: #FFF;
+	}
+
+	.tableCountry {
+		background-color: yellow;
+	}
+
+	.tableEven {
+		background-color: #AAA;
+
+	}
+
 
   .product1Aside {
     background-color: #090;
@@ -101,6 +131,7 @@
     width: 235px;
     height: 150px;
   }
+
   .asideImage {
     margin-bottom: 50px;
     margin-top: 45px;
@@ -175,6 +206,7 @@
 	.cookieSection  a:hover {
 		color: #FFF;
 	}
+
 }
 
 @media screen and (max-width: 929px) and (min-width: 720px) {
@@ -186,7 +218,7 @@
   .gridSection {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 80px 180px 180px 180px 180px 180px 180px 180px 20px ;
+    grid-template-rows: 80px 180px 180px 180px 180px 320px 180px 180px 20px ;
     grid-gap: 10px;
     margin: 20px;
 
@@ -243,10 +275,45 @@
     padding-left: 20%;
     padding-right: 20%;
 
-
-
-
   }
+
+	table.tableizer-table {
+	font-size: 12px;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+}
+
+.tableizer-table th {
+	background-color: #104E8B;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.tableHeader {
+	background-color: #000;
+	color: #FFF;
+
+}
+
+.tableFooter {
+	background-color: #104E8B;
+	color: #FFF;
+}
+
+.tableCountry {
+	background-color: yellow;
+}
+
+.tableEven {
+	background-color: #AAA;
+
+}
 
   .product1Aside {
     display: none;
@@ -270,6 +337,7 @@
     width: 235px;
     height: 150px;
   }
+
   .asideImage {
     margin-bottom: 50px;
     margin-top: 45px;
@@ -526,6 +594,44 @@
         padding-right: 20%;
 
       }
+
+			table.tableizer-table {
+			font-size: 12px;
+			border: 1px solid #CCC;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.tableizer-table td {
+			padding: 4px;
+			margin: 3px;
+			border: 1px solid #CCC;
+		}
+
+		.tableizer-table th {
+			background-color: #104E8B;
+			color: #FFF;
+			font-weight: bold;
+		}
+
+		.tableHeader {
+			background-color: #000;
+			color: #FFF;
+
+		}
+
+		.tableFooter {
+			background-color: #104E8B;
+			color: #FFF;
+		}
+
+		.tableCountry {
+			background-color: yellow;
+		}
+
+		.tableEven {
+			background-color: #AAA;
+
+		}
 
       .product1Aside {
         background-color: #090;
